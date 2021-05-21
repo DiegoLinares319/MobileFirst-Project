@@ -7,6 +7,7 @@
 */
 :root {
   /* Colores */
+  --linear-bg: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
   --bitcoin-orange: #F7931A;
   --soft-orange: #FFE9D5;
   --secondary-blue: #1A9AF7;
@@ -34,4 +35,74 @@ html {
 
 body {
   font-size: 1.6rem;
+}
+
+header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-width: 32rem;
+  height: 29.5rem;
+  text-align: center;
+  background-image: var(--linear-bg);
+}
+
+header img {
+  width: 15rem;
+  height: 2.4rem;
+  margin-top: 3.9rem;
+}
+
+.header__title-container {
+  position: relative;
+  width: 90%;
+  min-width: 28.8rem;
+  max-width: 90rem;
+  height: 13.8rem;
+  margin: 3.3rem 0 6.1rem 0;
+  text-align: center;
+}
+
+.header__title-container h1 {
+  margin: 0 0 2.4rem 0;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--just-white);
+}
+
+.header__title-container p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: var(--soft-orange);
+}
+
+.header__title-container .header__button {
+	position: absolute;
+  top: 100%;
+	left: 50%;
+	transform: translate(-50%, 70%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 22.9rem;
+  height: 4.8rem;
+  padding: 1.2rem 1.6rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 1.8rem;
+  color: var(--warm-black);
+  background-color: var(--off-white);
+  border-radius: 0.4rem;
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.header__button span {
+  width: 2.4rem;
+  height: 2.4rem;
+  content: url('./assets/icons/arrow-down-left-right.svg');
 }
