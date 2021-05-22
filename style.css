@@ -31,6 +31,7 @@
 html {
   font-size: 62.5%;
   font-family: var(--font-primary);
+  scroll-behavior: smooth;
 }
 
 body {
@@ -351,7 +352,7 @@ main {
 .card {
   width: 90%;
   min-width: 28.8rem;
-  max-width: 90rem;
+  max-width: 40rem;
   height: 15.2rem;
   margin: 0 auto 1.6rem;
   padding: 1.4rem 2rem 2.2rem 1.6rem;
@@ -396,4 +397,28 @@ main {
 
 .card__logo--check {
   content: url(./assets/icons/check-circle.svg);
+}
+
+.main-comodin-container {
+  position: relative;
+  width: 100%;
+  min-width: 32rem;
+  height: 60vh;
+  background-image: url(https://i.imgur.com/beGvfMQ.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-comodin-container__title {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  width: 90%;
+  transform: translate(-50%, 9rem);
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  text-align: center;
+  color: var(--just-white);
 }
