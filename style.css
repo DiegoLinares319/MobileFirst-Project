@@ -298,3 +298,102 @@ main {
   line-height: 1.7rem;
   color: #757575;
 }
+
+.main-cards-container {
+  position: relative;
+  width: 100%;
+  min-width: 32rem;
+  height: 91rem;
+  padding: 6.4rem 0 2.5rem;
+  background-color: var(--warm-black);
+  text-align: center;
+}
+
+.batata {
+  position: absolute;
+  width: 4.057rem;
+  height: 2.401rem;
+  bottom: 100%;
+  left: 50%;
+  transform: translate(-50%, 1.35rem);
+  content: url(./assets/icons/batata.svg);
+}
+
+.main-cards-container__title-container {
+  width: 90%;
+  min-width: 28.8rem;
+  max-width: 90rem;
+  height: 9.4rem;
+  margin: 0 auto 3.2rem;
+  text-align: center;
+}
+
+.main-cards-container__title-container h2 {
+  margin-bottom: 2.4rem;
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  font-weight: 700;
+  color: var(--just-white);
+}
+
+.main-cards-container__title-container p {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  font-weight: 500;
+  color: #808080;
+}
+
+.cards-container {
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  width: 90%;
+  min-width: 28.8rem;
+  max-width: 90rem;
+  height: 15.2rem;
+  margin: 0 auto 1.6rem;
+  padding: 1.4rem 2rem 2.2rem 1.6rem;
+  background-color: var(--black);
+  border-radius: .4rem;
+  text-align: left;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.card__logo {
+  content: url(assets/icons/clock.svg);
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.card h3 {
+  margin: 1rem 0;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  color: var(--just-white);
+}
+
+.card p {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: #808080;
+}
+
+.card__logo--clock {
+  content: url(./assets/icons/clock.svg);
+}
+
+.card__logo--eye {
+  content: url(./assets/icons/eye.svg);
+}
+
+.card__logo--dollar {
+  content: url(./assets/icons/dollar.svg);
+}
+
+.card__logo--check {
+  content: url(./assets/icons/check-circle.svg);
+}
