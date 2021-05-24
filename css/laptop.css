@@ -1,0 +1,7 @@
+.main-tables-container, .plans-container {
+  overflow-x: hidden;
+}
+
+.plans-container {
+  width: 95.231rem;
+}
