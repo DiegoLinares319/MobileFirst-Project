@@ -421,7 +421,7 @@ main {
   width: 100%;
   min-width: 32rem;
   height: 60vh;
-  background-image: url(https://i.imgur.com/beGvfMQ.jpg);
+  background-image: url(https://i.imgur.com/1YnkYq6.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -621,4 +621,10 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (min-width: 768px) {
+  .main-comodin-container {
+    background-image: url(https://i.imgur.com/VWbkQUb.png);
+  }
 }
