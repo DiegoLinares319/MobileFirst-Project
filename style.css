@@ -623,6 +623,11 @@ footer {
   align-items: center;
 }
 
+.footer-right img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 @media (min-width: 768px) {
   .main-comodin-container {
     background-image: url(https://i.imgur.com/VWbkQUb.png);
